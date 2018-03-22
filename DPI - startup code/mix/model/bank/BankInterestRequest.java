@@ -1,5 +1,3 @@
-package model.bank;
-
 /**
  *
  * This class stores all information about an request from a bank to offer

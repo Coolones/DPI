@@ -1,5 +1,3 @@
-package model.loan;
-
 /**
  *
  * This class stores all information about a bank offer

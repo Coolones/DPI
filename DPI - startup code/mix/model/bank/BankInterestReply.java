@@ -1,5 +1,3 @@
-package model.bank;
-
 /**
  * This class stores information about the bank reply
  *  to a loan request of the specific client

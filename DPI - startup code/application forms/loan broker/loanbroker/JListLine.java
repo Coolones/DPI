@@ -1,8 +1,3 @@
-package loanbroker;
-
-import model.loan.*;
-import model.bank.*;
-
 /**
  * This class represents one line in the JList in Loan Broker.
  * This class stores all objects that belong to one LoanRequest:
