@@ -16,11 +16,14 @@ import javax.swing.border.EmptyBorder;
 public class LoanBrokerFrame extends JFrame {
 
 
-	private BrokerClientReceiver clientReceiver;
+	/*rivate BrokerClientReceiver clientReceiver;
 	private BrokerClientSender clientSender;
 
 	private BrokerBankReceiver bankReceiver;
-	private BrokerBankSender bankSender;
+	private BrokerBankSender bankSender;*/
+
+	private BrokerClientGateway clientGateway;
+	private BrokerBankGateway bankGateway;
 
 	/**
 	 * 
@@ -49,7 +52,7 @@ public class LoanBrokerFrame extends JFrame {
 	 */
 	public LoanBrokerFrame() {
 
-		clientReceiver = new BrokerClientReceiver(this);
+		/*clientReceiver = new BrokerClientReceiver(this);
 		clientReceiver.receiveMessage();
 
 		clientSender = new BrokerClientSender();
@@ -57,7 +60,10 @@ public class LoanBrokerFrame extends JFrame {
 		bankReceiver = new BrokerBankReceiver(this);
 		bankReceiver.receiveMessage();
 
-		bankSender = new BrokerBankSender();
+		bankSender = new BrokerBankSender();*/
+
+		clientGateway = new BrokerClientGateway(this);
+		bankGateway = new BrokerBankGateway(this);
 
 		setTitle("Loan Broker");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -118,7 +124,8 @@ public class LoanBrokerFrame extends JFrame {
 		JListLine rr = getRequestReply(loanRequest);
 		if (rr!= null && bankRequest != null){
 			rr.setBankRequest(bankRequest);
-			bankSender.sendRequest(bankRequest);
+			//bankSender.sendRequest(bankRequest);
+			bankGateway.applyForBankInterest(bankRequest);
             list.repaint();
 		}		
 	}
@@ -127,8 +134,9 @@ public class LoanBrokerFrame extends JFrame {
 		JListLine rr = getRequestReply(loanRequest);
 		if (rr!= null && bankReply != null){
 			rr.setBankReply(bankReply);;
-			clientSender.sendReply(new LoanReply(bankReply.getId(), bankReply.getInterest(), bankReply.getQuoteId()));
-            list.repaint();
+			//clientSender.sendReply(new LoanReply(bankReply.getId(), bankReply.getInterest(), bankReply.getQuoteId()));
+            clientGateway.sendLoanReply(new LoanReply(bankReply.getId(), bankReply.getInterest(), bankReply.getQuoteId()));
+			list.repaint();
 		}		
 	}
 }

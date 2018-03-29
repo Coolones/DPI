@@ -1,6 +1,5 @@
 package applicationforms.client;
 
-import applicationforms.client.ClientReceiver;
 import mix.messaging.RequestReply;
 import mix.model.loan.LoanReply;
 import mix.model.loan.LoanRequest;
@@ -31,18 +30,21 @@ public class LoanClientFrame extends JFrame {
 	private JLabel lblNewLabel_1;
 	private JTextField tfTime;
 
-	private ClientReceiver receiver;
-	private ClientSender sender;
+	/*private ClientReceiver receiver;
+	private ClientSender sender;*/
+	private ClientGateway gateway;
 
 	/**
 	 * Create the frame.
 	 */
 	public LoanClientFrame() {
 
-        receiver = new ClientReceiver(this);
+        /*receiver = new ClientReceiver(this);
         receiver.receiveMessage();
 
-	    sender = new ClientSender();
+	    sender = new ClientSender();*/
+
+		gateway = new ClientGateway(this);
 
 		setTitle("Loan Client");
 		
@@ -121,7 +123,8 @@ public class LoanClientFrame extends JFrame {
 				requestReplyList.repaint();
 				// to do:  send the JMS with request to Loan Broker
 
-                sender.sendRequest(request);
+                //sender.sendRequest(request);
+				gateway.applyForLoan(request);
 			}
 		});
 		GridBagConstraints gbc_btnQueue = new GridBagConstraints();

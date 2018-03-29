@@ -2,37 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eec7a81-a8df-4f66-af92-c30e8075150e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/.idea/DPI - startup code.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/abn amro/bank/JMSBankFrame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/loan broker/loanbroker/JListLine.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/loan broker/loanbroker/LoanBrokerFrame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/loan client/loanclient/LoanClientFrame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/main/main/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/BankInterestReply.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/BankInterestRequest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/JListLine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/JMSBankFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/JMSBankFrame$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/JMSBankFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanBrokerFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanBrokerFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanClientFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanClientFrame$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanClientFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanReply.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/LoanRequest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/Main$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/application forms/production/DPI - startup code/RequestReply.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/mix/messaging/requestreply/RequestReply.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/mix/model/bank/BankInterestReply.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/mix/model/bank/BankInterestRequest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/mix/model/loan/LoanReply.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DPI - startup code/mix/model/loan/LoanRequest.java" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/bank/BankGateway.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankGateway.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientGateway.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/client/ClientGateway.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mix/gateway/MessageReceiverGateway.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mix/gateway/MessageSenderGateway.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationforms/client/LoanClientFrame.java" afterPath="$PROJECT_DIR$/src/main/java/applicationforms/client/LoanClientFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,78 +26,65 @@
       <file leaf-file-name="JMSBankFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+            <state relative-caret-position="441">
+              <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4397#4398#0" expanded="true" />
-                <element signature="e#4459#4460#0" expanded="true" />
+                <element signature="e#4509#4510#0" expanded="true" />
+                <element signature="e#4571#4572#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrokerBankSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankSender.java">
+      <file leaf-file-name="ActiveMQMessageConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.3/activemq-all-5.15.3-sources.jar!/org/apache/activemq/ActiveMQMessageConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="200">
+              <caret line="1403" column="0" lean-forward="false" selection-start-line="1403" selection-start-column="0" selection-end-line="1403" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankSender.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoanBrokerFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoanBrokerFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="103" column="62" lean-forward="false" selection-start-line="103" selection-start-column="62" selection-end-line="103" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JListLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/JListLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#3162#3163#0" expanded="true" />
+                <element signature="e#3219#3220#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestReply.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mix/messaging/RequestReply.java">
+      <file leaf-file-name="BrokerClientReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="447">
+              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="51" selection-end-column="109" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/ClientReceiver.java">
+      <file leaf-file-name="LoanClientFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/LoanClientFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="-2244">
+              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,32 +92,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoanClientFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/LoanClientFrame.java">
+      <file leaf-file-name="ClientGateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/ClientGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="183" column="34" lean-forward="false" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="577">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrokerBankReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankReceiver.java">
+      <file leaf-file-name="BrokerClientGateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="46" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="339">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrokerClientSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientSender.java">
+      <file leaf-file-name="BrokerBankGateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankGateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankGateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,11 +197,17 @@
         <option value="$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/applicationforms/bank/BankReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/applicationforms/bank/BankSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/applicationforms/client/ClientReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mix/gateway/MessageSenderGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mix/gateway/MessageReceiverGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationforms/bank/BankGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/applicationforms/client/LoanClientFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationforms/client/ClientGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientGateway.java" />
       </list>
     </option>
   </component>
@@ -215,9 +217,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="702" />
-    <option name="width" value="1225" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="707" />
+    <option name="width" value="1220" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -247,6 +249,123 @@
               <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="applicationforms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="applicationforms" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="applicationforms" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="applicationforms" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="applicationforms" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mix" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mix" type="462c0819:PsiDirectoryNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mix" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mix" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DPI JMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DPI JMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mix" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,15 +554,16 @@
       <updated>1522246229133</updated>
       <workItem from="1522246230539" duration="1518000" />
       <workItem from="1522266221069" duration="8358000" />
-      <workItem from="1522274716608" duration="203000" />
+      <workItem from="1522274716608" duration="10425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10079000" />
+    <option name="totallyTimeSpent" value="20301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="0" width="1225" height="1047" extended-state="1" />
+    <frame x="707" y="0" width="1220" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -451,15 +571,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995495" sideWeight="0.5030043" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29617116" sideWeight="0.50344825" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29617116" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995495" sideWeight="0.49699572" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.49699572" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32188842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16551724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -483,23 +603,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4397#4398#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -513,7 +621,7 @@
         <state relative-caret-position="442">
           <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,9 +639,9 @@
         <state relative-caret-position="476">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#903#904#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -576,7 +684,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
           <caret line="183" column="34" lean-forward="false" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -586,8 +696,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4397#4398#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
+            <element signature="e#4509#4510#0" expanded="true" />
+            <element signature="e#4571#4572#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,7 +707,7 @@
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,22 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/ClientSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -874,26 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#590#591#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mix/model/bank/BankInterestRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -910,41 +984,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/JListLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#903#904#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="46" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,41 +1004,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/ClientSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="73" lean-forward="true" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/ClientReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mix/gateway/MessageSenderGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+        <state relative-caret-position="595">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4397#4398#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mix/gateway/MessageReceiverGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="103" column="62" lean-forward="false" selection-start-line="103" selection-start-column="62" selection-end-line="103" selection-end-column="62" />
+        <state relative-caret-position="408">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/LoanClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="183" column="34" lean-forward="false" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
+        <state relative-caret-position="-2244">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerBankGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/JMSBankFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4509#4510#0" expanded="true" />
+            <element signature="e#4571#4572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.3/activemq-all-5.15.3-sources.jar!/org/apache/activemq/ActiveMQMessageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="1403" column="0" lean-forward="false" selection-start-line="1403" selection-start-column="0" selection-end-line="1403" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/bank/BankGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/client/ClientGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="51" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/BrokerClientGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationforms/broker/LoanBrokerFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="e#3162#3163#0" expanded="true" />
+            <element signature="e#3219#3220#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

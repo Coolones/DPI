@@ -24,8 +24,9 @@ public class JMSBankFrame extends JFrame {
 	private JTextField tfReply;
 	private DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>> listModel = new DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>>();
 
-	private BankReceiver receiver;
-	private BankSender sender;
+	/*private BankReceiver receiver;
+	private BankSender sender;*/
+	private BankGateway gateway;
 	
 	/**
 	 * Launch the application.
@@ -48,10 +49,11 @@ public class JMSBankFrame extends JFrame {
 	 */
 	public JMSBankFrame() {
 
-		receiver = new BankReceiver(this);
+		/*receiver = new BankReceiver(this);
 		receiver.receiveMessage();
 
-		sender = new BankSender();
+		sender = new BankSender();*/
+		gateway = new BankGateway(this);
 
 		setTitle("JMS Bank - ABN AMRO");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -108,7 +110,8 @@ public class JMSBankFrame extends JFrame {
                         list.repaint();
                         // todo: sent JMS message with the reply to Loan Broker
 
-                        sender.sendReply(rr);
+                        //sender.sendReply(rr);
+						gateway.sendInterestReply(rr);
                     }
                 }
 			}
