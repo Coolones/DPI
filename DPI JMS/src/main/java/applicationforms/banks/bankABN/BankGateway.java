@@ -1,11 +1,10 @@
-package applicationforms.bank;
+package applicationforms.banks.bankABN;
 
+import applicationforms.banks.iBankFrame;
 import mix.gateway.MessageReceiverGateway;
 import mix.gateway.MessageSenderGateway;
 import mix.messaging.RequestReply;
 import mix.model.bank.BankInterestRequest;
-import mix.model.loan.LoanReply;
-import mix.model.loan.LoanRequest;
 
 import javax.jms.JMSException;
 import javax.jms.Message;
@@ -14,11 +13,11 @@ import javax.jms.ObjectMessage;
 
 public class BankGateway implements MessageListener {
 
-    private JMSBankFrame frame;
+    private iBankFrame frame;
     private MessageSenderGateway senderGateway;
     private MessageReceiverGateway receiverGateway;
 
-    public BankGateway(JMSBankFrame frame) {
+    public BankGateway(iBankFrame frame) {
         this.frame = frame;
         senderGateway = new MessageSenderGateway("BANKINTERESTREPLY");
         receiverGateway = new MessageReceiverGateway(this, "BANKINTERESTREQUEST");

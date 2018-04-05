@@ -50,6 +50,6 @@ public class BankInterestReply implements Serializable {
     }
 
     public String toString() {
-        return "id=" + id + " quote=" + this.bankId + " interest=" + this.interest;
+        return !bankId.equals("") ? "id=" + id + " quote=" + this.bankId + " interest=" + this.interest : "No bank wants give a loan!";
     }
 }

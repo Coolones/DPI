@@ -23,7 +23,8 @@ public class LoanBrokerFrame extends JFrame {
 	private BrokerBankSender bankSender;*/
 
 	private BrokerClientGateway clientGateway;
-	private BrokerBankGateway bankGateway;
+	//private BrokerBankGateway bankGateway;
+    private RecipientProcessor recipientProcessor;
 
 	/**
 	 * 
@@ -63,7 +64,8 @@ public class LoanBrokerFrame extends JFrame {
 		bankSender = new BrokerBankSender();*/
 
 		clientGateway = new BrokerClientGateway(this);
-		bankGateway = new BrokerBankGateway(this);
+		//bankGateway = new BrokerBankGateway(this);
+        recipientProcessor = new RecipientProcessor(this);
 
 		setTitle("Loan Broker");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -125,7 +127,8 @@ public class LoanBrokerFrame extends JFrame {
 		if (rr!= null && bankRequest != null){
 			rr.setBankRequest(bankRequest);
 			//bankSender.sendRequest(bankRequest);
-			bankGateway.applyForBankInterest(bankRequest);
+			//bankGateway.applyForBankInterest(bankRequest);
+            recipientProcessor.sendLoanToReceivers(bankRequest);
             list.repaint();
 		}		
 	}

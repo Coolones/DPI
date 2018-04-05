@@ -27,6 +27,15 @@ public class MessageSenderGateway {
         }
     }
 
+    public void setDestination(String channelName) {
+        try {
+            destination = session.createQueue(channelName);
+            producer = session.createProducer(destination);
+        } catch (JMSException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void SendMessage(Serializable obj) {
         try {
             ObjectMessage message = session.createObjectMessage(obj);

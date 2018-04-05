@@ -1,20 +1,18 @@
-package applicationforms.bank;
+package applicationforms.banks.bankRabo;
 
+import applicationforms.banks.BankGateway;
+import applicationforms.banks.iBankFrame;
 import mix.messaging.RequestReply;
 import mix.model.bank.BankInterestReply;
 import mix.model.bank.BankInterestRequest;
 
-import java.awt.EventQueue;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-
-public class JMSBankFrame extends JFrame {
+public class RaboBankFrame extends JFrame implements iBankFrame {
 
 	/**
 	 * 
@@ -35,7 +33,7 @@ public class JMSBankFrame extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					JMSBankFrame frame = new JMSBankFrame();
+					RaboBankFrame frame = new RaboBankFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -47,15 +45,15 @@ public class JMSBankFrame extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public JMSBankFrame() {
+	public RaboBankFrame() {
 
 		/*receiver = new BankReceiver(this);
 		receiver.receiveMessage();
 
 		sender = new BankSender();*/
-		gateway = new BankGateway(this);
+		gateway = new BankGateway(this, "RABOBANKINTERESTREQUEST");
 
-		setTitle("JMS Bank - ABN AMRO");
+		setTitle("JMS Bank - Rabobank");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -104,7 +102,7 @@ public class JMSBankFrame extends JFrame {
 				RequestReply<BankInterestRequest, BankInterestReply> rr = list.getSelectedValue();
 				if (rr != null) {
                     double interest = Double.parseDouble((tfReply.getText()));
-                    BankInterestReply reply = new BankInterestReply(rr.getRequest().getId(), interest,"ABN AMRO");
+                    BankInterestReply reply = new BankInterestReply(rr.getRequest().getId(), interest,"Rabobank");
                     if (reply != null){
                         rr.setReply(reply);
                         list.repaint();
@@ -135,6 +133,7 @@ public class JMSBankFrame extends JFrame {
 		return null;
 	}
 
+	@Override
 	public void Add(BankInterestRequest request) {
 		listModel.addElement(new RequestReply<>(request, null));
 	}

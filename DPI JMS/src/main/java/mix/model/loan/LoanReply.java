@@ -52,6 +52,6 @@ public class LoanReply implements Serializable {
     
     @Override
     public String toString(){
-        return "id=" + String.valueOf(id) + " interest="+String.valueOf(interest) + " quoteID="+String.valueOf(bankID);
+        return !bankID.equals("") ? "id=" + String.valueOf(id) + " interest="+String.valueOf(interest) + " quoteID="+String.valueOf(bankID) : "No bank wants give you a loan!";
     }
 }

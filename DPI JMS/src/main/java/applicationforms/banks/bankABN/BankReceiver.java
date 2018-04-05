@@ -1,4 +1,4 @@
-package applicationforms.bank;
+package applicationforms.banks.bankABN;
 
 import mix.model.bank.BankInterestRequest;
 import org.apache.activemq.ActiveMQConnectionFactory;
@@ -13,14 +13,14 @@ public class BankReceiver implements MessageListener {
     private Destination destination = null;
     private MessageConsumer consumer = null;
 
-    private JMSBankFrame frame;
+    private ABNBankFrame frame;
 
     public BankReceiver() {
 
     }
 
-    public BankReceiver(JMSBankFrame jmsBankFrame) {
-        this.frame = jmsBankFrame;
+    public BankReceiver(ABNBankFrame jmsBankFrame) {
+        //this.frame = jmsBankFrame;
     }
 
     public void receiveMessage() {

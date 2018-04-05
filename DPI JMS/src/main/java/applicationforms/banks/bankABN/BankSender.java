@@ -1,7 +1,6 @@
-package applicationforms.bank;
+package applicationforms.banks.bankABN;
 
 import mix.messaging.RequestReply;
-import mix.model.bank.BankInterestReply;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
