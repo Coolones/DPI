@@ -28,7 +28,7 @@ public class LoanCriteria {
         return amount >= minLoanAmount &&
                 amount <= maxLoanAmount &&
                 time >= minLoanTime &&
-                time <= maxLoanTime ? true : false;
+                time <= maxLoanTime;
     }
 
 

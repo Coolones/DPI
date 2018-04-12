@@ -41,7 +41,7 @@ public class AggregationProcessor {
         RequestReply bestReply = null;
 
         for (Map.Entry<RequestReply, String> recepient : recipientList.entrySet()) {
-            if (((BankInterestReply) recepient.getKey().getReply()).getId() == ID) {
+            if (recepient.getKey().getReply() != null && ((BankInterestReply) recepient.getKey().getReply()).getId() == ID) {
                 if (bestReply == null || ((BankInterestReply) bestReply.getReply()).getInterest() > ((BankInterestReply) recepient.getKey().getReply()).getInterest()) bestReply = recepient.getKey();
             }
         }

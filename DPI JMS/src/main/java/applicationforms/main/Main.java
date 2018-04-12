@@ -17,16 +17,16 @@ public class Main {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    LoanClientFrame clientFrame = new LoanClientFrame();
-                    LoanBrokerFrame brokerFrame = new LoanBrokerFrame();
                     ABNBankFrame bankABNFrame = new ABNBankFrame();
                     INGBankFrame bankINGFrame = new INGBankFrame();
                     RaboBankFrame bankRaboFrame = new RaboBankFrame();
-                    brokerFrame.setVisible(true);
-                    clientFrame.setVisible(true);
+                    LoanBrokerFrame brokerFrame = new LoanBrokerFrame();
+                    LoanClientFrame clientFrame = new LoanClientFrame();
                     bankABNFrame.setVisible(true);
                     bankINGFrame.setVisible(true);
                     bankRaboFrame.setVisible(true);
+                    clientFrame.setVisible(true);
+                    brokerFrame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
